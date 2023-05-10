@@ -1,6 +1,17 @@
 ## Overview
 This guide explains how to configure Postfix and Mailutils on Ubuntu to use an Office 365 email address for sending emails. The process involves installing Postfix and Mailutils, configuring the Postfix settings, creating a file to store the login information, configuring the generic mapping to define the user, and sending a test email.
 
+## Prerequisites
+
+You should have basic knowledge of Linux system administration and the command-line interface. Specifically, you should be comfortable with the following tasks:
+
+- Updating packages and installing software using the apt-get package manager.
+- Editing configuration files using a text editor such as Vim or Nano.
+- Setting file permissions and ownership using the chmod and chown commands.
+- Using Postfix commands such as postmap to update configuration files and check the mail queue.
+- Understanding basic email concepts such as SMTP, mail relaying, and authentication.
+- Access to an Office 365 email account with valid login credentials, as well as the ability to configure the email account's password if necessary.
+
 Note: This guide was tested on Ubuntu 22.04 but should work on other versions of Ubuntu as well.
 
 You can use your preferred text editor, such as nano, vim, or emacs, in place of vim in the commands below.
